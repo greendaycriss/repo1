@@ -29,6 +29,8 @@ int main()
 
 	scramble( after_md5 );
 	cout << "Hello!";
+	
+	cout << nl;
 
 // 	base64::encode( after_md5 );
 	return 0;
