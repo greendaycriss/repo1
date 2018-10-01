@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<LayoutPreparationParams>
+	<LayoutPreparationParams RunIndex="2" Sides="OneSidedFront"/>
+	<LayoutPreparationParams Rotate="Rotate180" RunIndex="4" Sides="OneSidedFront">
+		<FitPolicy SizePolicy="ReduceToFit"/>
+	</LayoutPreparationParams>
+	<LayoutPreparationParams RunIndex="6 ~ 7" Sides="OneSidedFront"/>
+</LayoutPreparationParams>
