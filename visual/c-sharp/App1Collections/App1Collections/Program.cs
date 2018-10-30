@@ -25,7 +25,7 @@ namespace App1Collections
 
             Console.WriteLine( "----------------------------------------------------------" );
             Console.WriteLine( "Array:" );
-            Console.WriteLine( "RunTime for AddElement ( all ):      " + array.GetTotalTimeSpan() );
+            Console.WriteLine( "RunTime for AddElement ( all ):      " + array.GetTotalTimeSpan( ) );
             array.FindPositionByValue( value );
             array.RemoveElementByPosition( position );
             Console.WriteLine( "----------------------------------------------------------" );
@@ -33,7 +33,7 @@ namespace App1Collections
 
             Console.WriteLine( "----------------------------------------------------------" );
             Console.WriteLine( "List:" );
-            Console.WriteLine( "RunTime for AddElement ( all ):      " + list.GetTotalTimeSpan() );
+            Console.WriteLine( "RunTime for AddElement ( all ):      " + list.GetTotalTimeSpan( ) );
             list.FindPositionByValue( value );
             list.RemoveElementByPosition( position );
             Console.WriteLine( "----------------------------------------------------------" );

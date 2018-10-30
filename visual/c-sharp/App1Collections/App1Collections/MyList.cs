@@ -15,7 +15,7 @@ namespace App1Collections
             list = new List<int>( );
         }
 
-        public TimeSpan GetTotalTimeSpan()
+        public TimeSpan GetTotalTimeSpan( )
         {
             return totalTimeSpan;
         }
